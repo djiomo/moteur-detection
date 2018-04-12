@@ -1,0 +1,46 @@
+IDS javascript
+Time took to calculate the fingerprint: 152ms
+
+Your browser fingerprint:
+
+Detector	Value
+User-Agent	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+Browser	Chrome
+Browser version	65
+OS Name	Windows
+OS Version	7
+OS Name	Windows
+Is Mobile	false
+Device	undefined
+Device Type	undefined
+Device Vendor	undefined
+CPU archi	amd64
+Mime Types	, Portable Document Format, Native Client Executable, Portable Native Client Executable, Widevine Content Decryption Module
+Referer	
+Cookie	
+Time to click	1663 ms
+Connection (Android only)	undefined
+Language	fr-FR
+color_depth	24
+pixel_ratio	1
+hardware_concurrency	4
+resolution	1366,768
+session_storage	1
+touch_support	0,false,false
+do_not_track	unknown
+adblock	false
+has_lied_languages	false
+has_lied_resolution	false
+has_lied_os	false
+has_lied_browser	false
+ipAddress	160.92.7.69
+City	Seclin
+Region	Nord-Pas-de-Calais
+Country	FR
+Continent	Europe
+Latitude	50.549999
+Longitude	3.033000
+Timezone	+01:00
+
+
+Browser signature(Fuzzy hash) : 768:UZy9Vm9JLTPPHZgfRmJX/fsW1KNUSN2GJIdAqqCCu:B9VmHLTPPHZgfRQfsW0iSNodJqCf 
