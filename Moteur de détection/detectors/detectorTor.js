@@ -10,5 +10,3 @@ function detectorTor(){
         return "Navigator is not Tor"
     }
 }
-
-console.log(detectorTor());

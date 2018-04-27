@@ -1,5 +1,8 @@
 function languages(){
-	return navigator.languages;
+    var lang=navigator.languages;
+    var res=""
+    for(var i=0;i<lang.length;i++){
+        res=res+"-"+lang[i];
+    }
+	return res;
 }
-
-console.log(languages()[2]);

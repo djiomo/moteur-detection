@@ -18,5 +18,5 @@ function OsVersion(){
     
 }
 
-console.log(OsVersion());
+
 

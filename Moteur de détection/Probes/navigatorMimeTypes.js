@@ -7,5 +7,3 @@ function mimeTypes(){
     return res;
 }
 
-var mime=mimeTypes();
-console.log(mime);//liste de différents plugins

@@ -5,4 +5,3 @@ function screeSize(){
     return res;
 }
 
-console.log(screeSize());

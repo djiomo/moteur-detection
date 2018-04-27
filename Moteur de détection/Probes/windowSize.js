@@ -5,4 +5,3 @@ function windowSize(){
     return res;
 }
 
-console.log(windowSize());

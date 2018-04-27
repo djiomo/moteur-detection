@@ -7,4 +7,3 @@ function deviceType(){
 		return "computer";
 	}
 }
-console.log(deviceType())

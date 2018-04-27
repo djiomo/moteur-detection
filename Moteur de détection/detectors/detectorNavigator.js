@@ -1,4 +1,4 @@
-var browser = function() {
+function browser() {
     // Return cached result if avalible, else get result then cache it.
     if (browser.prototype._cachedResult)
         return browser.prototype._cachedResult;
@@ -23,7 +23,15 @@ var browser = function() {
 
     // Blink engine detection
     var isBlink = (isChrome || isOpera) && !!window.CSS;
-
+    
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    var h1=screen.height;
+    var w1=screen.width;
+     if(h==h1 & w==w1){
+         return "Tor";
+     }
+    else {
     return browser.prototype._cachedResult =
         isOpera ? 'Opera' :
         isFirefox ? 'Firefox' :
@@ -33,6 +41,5 @@ var browser = function() {
         isEdge ? 'Edge' :
         isBlink ? 'Blink' :
         "Don't know";
-};
-
-console.log(browser());
+    }
+}

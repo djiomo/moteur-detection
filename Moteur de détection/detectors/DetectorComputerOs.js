@@ -7,7 +7,7 @@ function getOS() {
 
   if (macosPlatforms.indexOf(platform) !== -1) {
     os = 'Mac OS';
-  } else if (iosPlatforms.indexOf(platform) !== -1) {
+  } else if (macosPlatforms.indexOf(platform) !== -1) {
     os = 'iOS';
   } else if (windowsPlatforms.indexOf(platform) !== -1) {
     os = 'Windows';
@@ -20,4 +20,4 @@ function getOS() {
   return os;
 }
 
-alert(getOS());
+

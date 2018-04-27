@@ -8,5 +8,3 @@ function plugins(){
     return res;
 }
 
-var plugins=plugins();
-console.log(plugins);//liste de différents plugins
